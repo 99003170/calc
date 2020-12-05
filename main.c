@@ -7,7 +7,7 @@ int main()
     float choice,input1,result;
     printf("\nPlease select the required operation to be performed \n");
     printf("1.celsius_fahrenheit\n");
-    printf("2.fahrenheit_kelvin\n");
+    printf("2.kelvin_fahrenheit\n");
     printf("3.fahrenheit_celsius\n");
     printf("4.celsius_kelvin\n");
     printf("5.kelvin_celsius\n");
@@ -26,7 +26,7 @@ int main()
         case 2:
             printf("\nEnter temp to convert");
             scanf("%f",&input1);
-            result = do_fahrenheit_kelvin(float input1);
+            result = do_kelvin_fahrenheit(float input1);
             printf("%f",result);
             break;
             
