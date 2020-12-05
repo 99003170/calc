@@ -1,7 +1,4 @@
 #include<function.h>
-#include<stdio.h>
-#include<math.h>
-
 float do_celsius_fahrenheit(float input1)
 {
     float result = 9/5(input1)+32;
