@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #ifndef __FUNCTION_H__
 #define __FUNCTION_H__
 
